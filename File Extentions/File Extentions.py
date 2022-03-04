@@ -1,6 +1,3 @@
-from multiprocessing.sharedctypes import Value
-
-
 cases = int(input())
 total = []
 for case in range(cases):total.append(input().split(".")[1])
